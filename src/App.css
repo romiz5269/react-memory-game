@@ -1,0 +1,64 @@
+.App {
+  max-width: 860px;
+  margin: 40px auto;
+}
+button {
+  background: none;
+  border: 2px solid #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+}
+button:hover {
+  background: #c23866;
+  color: #fff;
+}
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.card-grid img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.form-control {
+ height: 400px;
+}
+.form-control form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-control input{
+  height:50px;
+  padding:20px;
+  background:none;
+  font-size:24px;
+  color:#fff;
+  margin-top: 100px;
+  width: 90%;
+  border-radius: 10px;
+}
+.form-control button {
+  margin-top: 70px;
+  animation: joonjoon 1s infinite;
+}
+@keyframes joonjoon {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
